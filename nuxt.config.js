@@ -28,7 +28,12 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    // '@/assets/css/bootstrap.css',
+    '@/assets/css/linearicons.css',
+    '@/assets/css/font-awesome.min.css',
+    '@/assets/css/bootstrap.css',
+    '@/assets/css/animate.min.css',
+    '@/assets/css/main.css',
+    '@/assets/css/custom.css',
   ],
 
   /*
@@ -44,8 +49,16 @@ module.exports = {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     // Doc: https://bootstrap-vue.js.org/docs/
-    'bootstrap-vue/nuxt'
+    'bootstrap-vue/nuxt',
+    '@nuxtjs/markdownit'
   ],
+
+  markdownit: {
+    preset: 'default',
+    linkify: true,
+    breaks: true,
+  },
+
   /*
   ** Axios module configuration
   */

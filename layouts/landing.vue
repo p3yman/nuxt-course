@@ -4,7 +4,7 @@
 
     <nuxt />
 
-    <page-footer />
+    <h1 style="padding: 100px;">New footer</h1>
   </div>
 </template>
 

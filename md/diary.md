@@ -1,0 +1,2 @@
+# My diary
+lorem ipsum

@@ -1,0 +1,7 @@
+.nav-menu li a.nuxt-link-active{
+  color: red;
+}
+#header{
+  position: static;
+  border-bottom: 1px solid #e7e7e7;
+}
