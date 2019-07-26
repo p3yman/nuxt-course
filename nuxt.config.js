@@ -77,5 +77,16 @@ module.exports = {
     extend(config, ctx) {
 
     }
+  },
+
+  generate: {
+    dir: '../docs',
+    routes: () => {
+      return [
+        '/blog/hello',
+        '/blog/diary',
+        '/blog/last-trip',
+      ]
+    }
   }
 }
