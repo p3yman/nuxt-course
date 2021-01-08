@@ -1,7 +1,7 @@
 {
   "name": "nuxt-course",
   "version": "1.0.0",
-  "description": "My sublime Nuxt.js project",
+  "description": "My Nuxt.js project",
   "author": "Peyman Eskandari",
   "private": true,
   "scripts": {
